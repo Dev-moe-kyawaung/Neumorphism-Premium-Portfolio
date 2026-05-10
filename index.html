@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe Kya Waung - Neumorphism Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">MK<span>Dev</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-avatar-wrapper fade-in-up">
+                <div class="hero-avatar">
+                    <img src="https://www.gravatar.com/avatar/moekyawaung2026?s=400&d=identicon" alt="Moe Kya Waung">
+                </div>
+            </div>
+
+            <h1 class="hero-title fade-in-up">Moe Kya Waung</h1>
+            <p class="hero-subtitle fade-in-up">Mobile & Web Developer</p>
+            <p class="hero-description fade-in-up">
+                Passionate about creating beautiful and functional digital experiences
+            </p>
+
+            <div class="hero-buttons fade-in-up">
+                <button class="btn btn-primary">View Portfolio</button>
+                <button class="btn btn-secondary">Contact Me</button>
+            </div>
+
+            <div class="scroll-indicator fade-in-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">About Me</h2>
+            <p class="section-subtitle fade-in-up">
+                Full Stack Developer with 5+ years of experience
+            </p>
+
+            <div class="about-grid">
+                <div class="about-card neomorph fade-in-up">
+                    <h3>🎓 Education</h3>
+                    <p>Self-taught developer with certifications in Flutter and Web Development</p>
+                </div>
+
+                <div class="about-card neomorph fade-in-up">
+                    <h3>💼 Experience</h3>
+                    <p>Worked with 20+ clients on mobile and web projects</p>
+                </div>
+
+                <div class="about-card neomorph fade-in-up">
+                    <h3>🏆 Achievements</h3>
+                    <p>15+ successful projects delivered with 100% client satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category neomorph fade-in-up">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>Flutter</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category neomorph fade-in-up">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Firebase</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Kotlin</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category neomorph fade-in-up">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-item">
+                        <span>Git</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Docker</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>AWS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Projects</h2>
+
+            <div class="projects-grid">
+                <div class="project-card neomorph fade-in-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Project">
+                    </div>
+                    <div class="project-body">
+                        <h3>E-Commerce App</h3>
+                        <p>Flutter app with Firebase backend</p>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card neomorph fade-in-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Project">
+                    </div>
+                    <div class="project-body">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather with API integration</p>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card neomorph fade-in-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Project">
+                    </div>
+                    <div class="project-body">
+                        <h3>Task Manager</h3>
+                        <p>Full-stack task management system</p>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Get In Touch</h2>
+
+            <div class="contact-content">
+                <div class="contact-info neomorph fade-in-up">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p class="label">Email</p>
+                            <p class="value">moe.kyawaung@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p class="label">Phone</p>
+                            <p class="value">+95 9 xxx xxxx</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Dev-moe-kyawaung" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form neomorph fade-in-up">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Moe Kya Waung. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
